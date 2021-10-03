@@ -6,7 +6,7 @@
   <head>
     <link rel="stylesheet" href="style.css">
     <meta charset="utf-8">
-    <title></title>
+    <title>Lab 1</title>
   </head>
 
   <body>
@@ -17,8 +17,9 @@
       ФИО сделавших:<br>
       -Жучков Иван Сергеевич<br>
       -Максимов Александр Владимирович<br>
+      <p class="addinfo">
       Группа: P33202<br>
-      Вариант: 21058<br>
+      Вариант: 21058<br> </p>
     </header>
     <div align="left" >
         <img class="varImage" src="Variant.png">

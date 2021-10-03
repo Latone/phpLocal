@@ -1,75 +1,131 @@
-.headStyle{
-  font-size:1.5em;
-  color: orange;
-  margin:1em;
-  font-family: serif;
-}
-.varImage{
-  height: auto;
-  width: auto;
-}
-.inputX{
-  margin-top: 10px;
-  font-size: 1em;
-}
-.inputY{
-	height:100px;
-}
-.inputR{
-	height:100px;
-}
-.button{
-	height:50px;
-}
-.response{
-	width:20em;
-	height:40%;
-	vertical-align:top;
-	padding:2%;
-	margin-right:0;
-}
-form{
-	margin:
-	padding-left:50px;
-}
+<style>
+		@media screen and (min-width: 700px) {
+			body {
+				font-size: 28px;
+			}
+		}
 
-form>div{
-	padding-left:10%;
-	margin:10px;
-	margin-left:0;
-	width:12em;
-}
-body .response{
-	top:700px;
-	left:350px;
-	margin:1em;
-	float:left;
-	width:300px;
-	height:300px;
-}
-.stacked{
-	margin:2%;
-	display:inline-block;
-}
-table{
-	border:5px solid #fff;
-}
-table *{
-	margin:5px;
-	border:1px solid #aaa;
-}
-.history{
-	margin:10px;
-}
-.historytable{
-	margin-left: 350px;
-	border: 1px solid #aaa;
-	cellspacing: 3em;
-	cellpadding: 3em;
-	width:10wh;
-	cols:3;
-}
-.historytable *{
-	height:30px;
-	width:400px;
-}
+		@media screen and (min-width: 600px) and (max-width: 699px) {
+			body {
+				font-size: 25px;
+			}
+		}
+
+		@media screen and (min-width: 500px) and (max-width: 599px) {
+			body {
+				font-size: 21px;
+			}
+		}
+
+
+
+			header{
+				background-image: url("bg.svg");
+				text-align:center;
+				margin:1em;
+				font-size:150%;
+				font-family:monospace;
+				color:#f450F8;
+			}
+			header h1{
+				font-size:150%;
+
+				color:#d8e3e8;
+			}
+			.addinfo{
+				font-size:70%;
+			}
+			img{
+				margin:2%;
+				display:inline-block;
+				float:right;
+				background-color:white;
+
+			}
+			div{
+				color:#d4d0F8;
+				margin:20px;
+				background-color:#80828f;
+			}
+			div[align=left]{
+				background-color:#979292;
+				margin:1em;
+				min-height:74vh;
+			}
+			form{
+				margin:
+				padding-left:50px;
+			}
+
+			form>div{
+				padding-left:10%;
+				margin:10px;
+				margin-left:0;
+				width:12em;
+			}
+			.inputX{
+
+				margin-top:0;
+				height:140px;
+				font-size:1em;
+			}
+			.inputY{
+				height:100px;
+			}
+			.inputR{
+				height:100px;
+			}
+			.button{
+				height:50px;
+				}
+			input[type="submit"]:hover{
+				background-color: blue;
+			}
+			.response{
+				width:20em;
+				height:40%;
+				vertical-align:top;
+				padding:2%;
+				margin-right:0;
+
+			}
+			.stacked{
+				margin:2%;
+				display:inline-block;
+			}
+			table{
+				border:5px solid #fff;
+			}
+			table *{
+				margin:5px;
+				border:1px solid #aaa;
+			}
+			.history{
+				border:1px solid #AAA;
+				margin:26px;
+			}
+			.historytable{
+				margin: 5px;
+				border: 1px solid #aaa;
+				cellspacing: 3em;
+				cellpadding: 3em;
+				width:20wh;
+				cols:3;
+			}
+			.historytable *{
+				height:30px;
+				width:400px;
+			}
+			@media screen and (min-width: 300px) and (max-width: 499px) {
+			body {
+				font-size: 14px;
+			}
+			body .response{
+				top:700px;
+				left:350px;
+				margin:1em;
+				float:left;
+				width:300px;
+				height:300px;
+			}
+			}
