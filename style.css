@@ -20,11 +20,10 @@
 
 
 			header{
-				background-image: url("bg.svg");
 				text-align:center;
 				margin:1em;
 				font-size:150%;
-				font-family:monospace;
+				font-family:serif;
 				color:#f450F8;
 			}
 			header h1{
@@ -53,10 +52,11 @@
 				min-height:74vh;
 			}
 			form{
-				margin:
 				padding-left:50px;
 			}
-
+			h1::first-letter{
+				color: #28ff3c;
+			}
 			form>div{
 				padding-left:10%;
 				margin:10px;
